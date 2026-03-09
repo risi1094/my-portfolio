@@ -8,20 +8,20 @@ import Reveal from "@/components/Reveal";
 const contactLinks = [
   {
     title: "GitHub",
-    value: "github.com/yourusername",
-    href: "https://github.com/yourusername",
+    value: "github.com/risi1094",
+    href: "https://github.com/risi1094",
     icon: FaGithub,
   },
   {
     title: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
-    href: "https://linkedin.com/in/yourprofile",
+    value: "Add your LinkedIn profile",
+    href: "https://linkedin.com/",
     icon: FaLinkedin,
   },
   {
     title: "Email",
-    value: "yourmail@gmail.com",
-    href: "mailto:yourmail@gmail.com",
+    value: "risirislam1094@gmail.com",
+    href: "mailto:risirislam1094@gmail.com",
     icon: FiMail,
   },
 ];
@@ -38,8 +38,8 @@ export default function Contact() {
           </h2>
 
           <p className="paragraph mt-4">
-            Interested in working together or have a project idea? Reach out
-            through the platforms below.
+            Interested in working together, collaborating, or discussing a
+            project idea? Reach out through the platforms below.
           </p>
         </Reveal>
 

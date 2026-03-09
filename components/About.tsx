@@ -5,9 +5,9 @@ import { FiCheckCircle, FiMail, FiPhoneCall } from "react-icons/fi";
 
 const points = [
   "Responsive Frontend Development",
-  "REST API Integration",
-  "Backend Logic & Authentication",
+  "Backend Logic & API Integration",
   "Database Design & Management",
+  "Clean UI with Modern User Experience",
 ];
 
 export default function About() {
@@ -24,15 +24,21 @@ export default function About() {
             <p className="section-label">About Me</p>
 
             <h2 className="section-title max-w-2xl">
-              Building <span className="accent">full stack products</span> with
-              clean design and practical functionality
+              Passionate <span className="accent">full stack developer</span>{" "}
+              building modern and scalable web solutions
             </h2>
 
             <p className="paragraph mt-5 max-w-xl">
-              I&apos;m a full stack developer focused on creating complete web
-              applications from attractive frontend interfaces to secure backend
-              systems and database integration. I enjoy building fast, usable,
-              and scalable digital products.
+              I’m a passionate Full Stack Developer focused on building modern,
+              fast, and scalable web applications. I enjoy transforming ideas
+              into real products using clean code, efficient architecture, and
+              modern technologies.
+            </p>
+
+            <p className="paragraph mt-4 max-w-xl">
+              My main stack includes React, Next.js, Node.js, and modern UI
+              tools like Tailwind CSS. I love learning new technologies and
+              continuously improving my development skills through real projects.
             </p>
 
             <div className="mt-7 grid gap-3 sm:grid-cols-2">
@@ -50,7 +56,7 @@ export default function About() {
                   <FiMail className="text-base" />
                 </div>
                 <p className="text-xs text-white/50">Email Me</p>
-                <p className="mt-1 text-sm font-semibold text-white">
+                <p className="mt-1 break-all text-sm font-semibold text-white">
                   risirislam1094@gmail.com
                 </p>
               </div>
@@ -75,20 +81,20 @@ export default function About() {
             className="relative mx-auto w-full max-w-[480px]"
           >
             <div className="relative overflow-hidden rounded-[24px] border border-white/10 bg-[#111] p-3">
-              <div className="relative flex min-h-[420px] items-end justify-center overflow-hidden rounded-[20px] bg-[#e9e9e9]">
-                 <img
-  src="/about-photo.jpg"
-  alt="Developer"
-  className="h-full w-full object-cover"
-             />
+              <div className="relative flex min-h-[420px] items-end justify-center overflow-hidden rounded-[20px] bg-[#101010]">
+                <img
+                  src="/about-photo.jpg"
+                  alt="Developer"
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               <div className="absolute left-[-10px] top-[20%] rounded-full border border-white/10 bg-white px-4 py-2 text-xs font-semibold text-black shadow-xl">
-                Frontend Developer ↗
+                Full Stack Developer ↗
               </div>
 
               <div className="absolute bottom-[15%] left-[-8px] rounded-full border border-white/10 bg-white px-4 py-2 text-xs font-semibold text-black shadow-xl">
-                Backend Developer ↗
+                UI + Backend Focus ↗
               </div>
 
               <div className="absolute right-4 top-4 rounded-xl border border-white/10 bg-black/80 px-3 py-2 backdrop-blur-md">

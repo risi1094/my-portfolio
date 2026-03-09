@@ -29,9 +29,9 @@ const skills = [
   { name: "TypeScript", icon: SiTypescript },
   { name: "React", icon: SiReact },
   { name: "Next.js", icon: SiNextdotjs },
-  { name: "Tailwind", icon: SiTailwindcss },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
   { name: "Node.js", icon: SiNodedotjs },
-  { name: "Express", icon: SiExpress },
+  { name: "Express.js", icon: SiExpress },
   { name: "Java", icon: SiOpenjdk },
   { name: "MySQL", icon: SiMysql },
   { name: "MongoDB", icon: SiMongodb },
@@ -52,8 +52,8 @@ export default function Skills() {
             Tools & <span className="accent">Technologies</span> I Use
           </h2>
           <p className="paragraph mt-4">
-            Frontend, backend, database, and deployment tools I use to build
-            complete full stack applications.
+            My main development stack includes frontend, backend, database, and
+            developer tools used to build complete full stack applications.
           </p>
         </Reveal>
 

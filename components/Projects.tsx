@@ -6,39 +6,35 @@ import Reveal from "@/components/Reveal";
 
 const projects = [
   {
-    title: "Bookshop Management System",
-    desc: "Java-based desktop system for managing books, categories, and billing operations.",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-    stack: ["Java", "Swing", "File Handling"],
-    github: "https://github.com/yourusername/bookshop",
+    title: "Portfolio Website",
+    desc: "Modern developer portfolio built with Next.js, Tailwind CSS, and smooth animations to showcase skills, projects, and contact details.",
+    image: "/project-portfolio.jpg",
+    stack: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/risi1094/my-portfolio",
     demo: "",
   },
   {
     title: "Cricket Score Overlay App",
-    desc: "Realtime cricket overlay system with admin control and Firebase realtime database.",
-    image:
-      "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1200&q=80",
-    stack: ["React", "Firebase", "Tailwind"],
-    github: "https://github.com/yourusername/cricket-overlay",
+    desc: "A live cricket score overlay system with admin controls and realtime updates for score display and match data handling.",
+    image: "/project-cricket.jpg",
+    stack: ["React", "Firebase", "Tailwind CSS"],
+    github: "",
+    demo: "",
+  },
+  {
+    title: "Bookshop Management System",
+    desc: "Java desktop application for managing books, categories, users, and billing operations with a structured management workflow.",
+    image: "/project-bookshop.jpg",
+    stack: ["Java", "Swing", "File Handling"],
+    github: "",
     demo: "",
   },
   {
     title: "Alarm Web Application",
-    desc: "Modern alarm scheduling web app with responsive UI and notifications.",
-    image:
-      "https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=1200&q=80",
+    desc: "A clean and responsive alarm scheduling web app focused on notifications, usability, and modern interface design.",
+    image: "/project-alarm.jpg",
     stack: ["Next.js", "TypeScript", "UI Design"],
-    github: "https://github.com/yourusername/alarm-app",
-    demo: "",
-  },
-  {
-    title: "Portfolio Website",
-    desc: "Animated premium portfolio website with Next.js, Tailwind CSS and modern layout.",
-    image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-    stack: ["Next.js", "Tailwind", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "",
     demo: "",
   },
 ];
@@ -55,8 +51,8 @@ export default function Projects() {
           </h2>
 
           <p className="paragraph mt-4">
-            Some of the projects that showcase my full stack development skills
-            and UI building experience.
+            A selection of projects that showcase my development skills,
+            practical learning, and full stack building experience.
           </p>
         </Reveal>
 
@@ -70,7 +66,7 @@ export default function Projects() {
               viewport={{ once: true }}
               className="group overflow-hidden rounded-[22px] border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-2 hover:border-[#d9ff3f]/40 hover:bg-white/[0.07] hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
             >
-              <div className="relative h-[220px] overflow-hidden">
+              <div className="relative h-[220px] overflow-hidden bg-[#111]">
                 <img
                   src={project.image}
                   alt={project.title}

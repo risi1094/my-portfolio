@@ -2,8 +2,9 @@
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Premium Portfolio",
-  description: "Modern premium portfolio website",
+  title: "Risi | Full Stack Developer Portfolio",
+  description:
+    "Modern full stack developer portfolio built with Next.js, Tailwind CSS, and Framer Motion.",
 };
 
 export default function RootLayout({

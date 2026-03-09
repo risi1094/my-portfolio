@@ -42,10 +42,11 @@ export default function Hero() {
               </a>
 
               <a
-                href="#projects"
+                href="/Risi-Resume.pdf"
+                download
                 className="outline-btn transition duration-300 hover:-translate-y-1"
               >
-                View Projects <FiArrowRight />
+                Download Resume <FiArrowRight />
               </a>
             </div>
           </motion.div>
@@ -65,28 +66,11 @@ export default function Hero() {
             className="relative mx-auto"
           >
             <div className="relative flex h-[340px] w-[340px] items-center justify-center md:h-[500px] md:w-[500px]">
-              {/* Green ring */}
+              <div className="absolute inset-[36px] rounded-full border-[16px] border-[#d9ff3f]/30 shadow-[0_0_40px_rgba(217,255,63,0.15)]" />
 
-<div className="absolute inset-[36px] rounded-full border-[16px] border-[#d9ff3f]/30" />
+              <div className="absolute inset-[90px] rounded-full bg-gradient-to-b from-[#0f6f72] to-[#0a4d50]" />
 
-{/* Inner teal background */}
-
-<div className="absolute inset-[90px] rounded-full bg-gradient-to-b from-[#0f6f72] to-[#0a4d50]" />
-
-{/* Photo frame */}
-
-<div className="absolute inset-[105px] overflow-hidden rounded-full border border-white/10">
-  <img
-    src="/profile.png"
-    alt="Profile"
-    className="absolute bottom-0 left-1/2 h-[112%] w-auto max-w-none -translate-x-1/2 object-contain"
-  />
-</div>
-              <div className="absolute left-1/2 top-1/2 h-[240px] w-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#d9ff3f]/12 blur-[70px] md:h-[290px] md:w-[290px]" />
-
-              <div className="absolute inset-[98px] rounded-full bg-gradient-to-b from-[#0d6f73] to-[#0a4d50]" />
-
-              <div className="absolute inset-[110px] overflow-hidden rounded-full border border-white/10 bg-transparent">
+              <div className="absolute inset-[105px] overflow-hidden rounded-full border border-white/10">
                 <img
                   src="/profile.png"
                   alt="Profile"

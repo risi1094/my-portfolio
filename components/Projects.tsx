@@ -26,7 +26,7 @@ const projects = [
     desc: "Java desktop application for managing books, categories, users, and billing operations with a structured management workflow.",
     image: "/project-bookshop.jpg",
     stack: ["Java", "Swing", "File Handling"],
-    github: "",
+    github: "https://github.com/risi1094/city-bookshop-management",
     demo: "",
   },
   {
